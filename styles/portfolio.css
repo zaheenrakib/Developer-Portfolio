@@ -172,6 +172,26 @@ main section{
 footer{
     display: flex;
     margin-top: 100px;
+    gap: 100px;
     background-color: #FFF8F3;
-    padding: 130px 200px;
+    padding: 130px 20px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-link a{
+    margin-right: 20px;
+}
+.contact input[type="text"] , input[type="email"] , textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    background-color: #FFF;
+    border-radius: 5px;
+    border: 0;
+    width: 80%;
+}
+.section-description{
+    text-align: left;
 }
